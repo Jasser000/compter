@@ -4,10 +4,10 @@ function compter(){
 
     let s=0;
  
-    for(let i=0; i<ch.length; i++)
+    for (x of ch)
     {
     	
-        if(ch[i]==c)
+        if(x==c)
         	s+=1
     }
     document.getElementById("result").innerHTML = "le nombre d'occurance de "+ c +" est : " + s;
